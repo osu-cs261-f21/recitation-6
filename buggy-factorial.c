@@ -16,6 +16,9 @@ int main(int argc, char const *argv[]) {
     return 1;
   }
 
+  /*
+   * Convert user-specified value of n from a strint to an integer.
+   */
   int n = strtol(argv[1], NULL, 0);
   if (n <= 0) {
     printf("Error: n must be a positive integer value.\n");
@@ -23,11 +26,13 @@ int main(int argc, char const *argv[]) {
     return 1;
   }
 
+  /*
+   * Compute n!
+   */
   int i, f;
   for (i = 1; i < n; i++) {
     f *= i;
   }
-
   printf("%d! = %d\n", n, f);
 
   return 0;
