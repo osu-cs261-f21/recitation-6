@@ -1,3 +1,4 @@
 *.dSYM
 *.o
 buggy-factorial
+buggy-pointers
