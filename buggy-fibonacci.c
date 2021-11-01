@@ -13,7 +13,8 @@
  */
 void compute_fib_seq(int* fib_seq, int n) {
   int prev_fib, prev_prev_fib;
-  fib_seq[0] = 1;
+  fib_seq[0] = 0;
+  fib_seq[1] = 1;
   for (int i = 0; i < n; i++) {
     prev_fib = fib_seq[i-1];
     prev_prev_fib = fib_seq[i-2];
