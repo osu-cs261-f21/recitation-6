@@ -17,9 +17,12 @@ void swap(int* a, int* b) {
 }
 
 /*
- * This function implements insertion sort.  It specifically sorts an array of
- * integers by decreasing value (i.e. the largest value should be at the front
- * of the array after it's sorted).
+ * This function implements insertion sort:
+ *
+ *   https://en.wikipedia.org/wiki/Insertion_sort
+ *
+ * Here, we specifically sort an array of integers by decreasing value (i.e.
+ * the largest value should be at the front of the array after it's sorted).
  */
 void insertion_sort(int* array, int n) {
   for (int i = 1; i < n; i++) {
