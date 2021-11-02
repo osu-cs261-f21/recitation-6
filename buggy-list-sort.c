@@ -1,3 +1,8 @@
+/*
+ * This program should sort a linked by increasing value using bubble sort,
+ * but it's currently broken.  Use GDB and Valgrind to help debug it.
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 

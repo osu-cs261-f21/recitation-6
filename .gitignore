@@ -1,6 +1,6 @@
 *.dSYM
 *.o
+buggy-array-sort
 buggy-factorial
-buggy-list
+buggy-list-sort
 buggy-pointers
-buggy-sort
