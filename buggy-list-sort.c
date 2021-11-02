@@ -6,6 +6,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/*
+ * This link structure is used below to implement a simple singly-linked list.
+ */
 struct link {
   int val;
   struct link* next;
